@@ -14,9 +14,9 @@ In addition, branches with the prefix task/ describe the task that needs to be a
 ### Record
 - title: String
 - artist: String
-- year: String
+- year: Number
 - img: String
-- price: String
+- price: Number
 
 all Fields are required
 
