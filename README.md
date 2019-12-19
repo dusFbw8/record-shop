@@ -17,6 +17,7 @@ In addition, branches with the prefix task/ describe the task that needs to be a
 - year: String
 - img: String
 - price: String
+
 all Fields are required
 
 ### User
@@ -24,9 +25,11 @@ all Fields are required
 - lastName: String
 - email: String
 - password: String
+
 all Fields are required
 
 ### Order
 - quantity: Number
 - record: Number
+
 all Fields are required
