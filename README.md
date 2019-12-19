@@ -9,3 +9,24 @@ This repo has several branches with several stages of the development of the fin
 If you need a reminder on how this app changed through each of the workshops, simply checkout the branch for the phase you are interested in, and read the changelog.
 
 In addition, branches with the prefix task/ describe the task that needs to be achieved in that change. The tasks are all listed in the TASKS.md file. If you want to start doing things yourself, simply checkout the task branch and make the change. To begin from the start, checkout the task/01-mock-database-and-controllers branch.
+
+## Data Structure
+### Record
+- title: String
+- artist: String
+- year: String
+- img: String
+- price: String
+all Fields are required
+
+### User
+- firstName: String
+- lastName: String
+- email: String
+- password: String
+all Fields are required
+
+### Order
+- quantity: Number
+- record: Number
+all Fields are required
